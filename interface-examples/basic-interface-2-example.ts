@@ -3,8 +3,8 @@ interface Rectangle {
     height: number;
 }
 
-function getArea (rectangle: Rectangle): string {
-    return `A área do retângulo é ${rectangle.height * rectangle.width}`;
+function getArea (area: Rectangle): string {
+    return `A área do retângulo é ${area.height * area.width} metros quadrados`;
 }
 
 const retangulo: Rectangle = {width: 13, height: 14};

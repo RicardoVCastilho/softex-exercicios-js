@@ -4,16 +4,15 @@ interface Task {
 }
 
     function taskStatus (task: Task) {
-        if(task.completed) {
-            return `Parabéns, concluiu a tarefa!`
+        if(task.completed == null) {
+            return `Tarefa não concluida:${task.title} `
         }
-        else{
-            return `Tarefa incompleta!` 
-        };
+
+        return `Tarefa concluida: ${task.title}`;
     }
 
-    const task1:Task = {title:"Task1", completed:true};
-    const task2:Task = {title:"Task2"}
+    const task1:Task = {title:"Fazer API", completed:true};
+    const task2:Task = {title:"Fazer BOT"};
 
     //caso tarefa seja concluida:
     console.log(taskStatus(task1));
