@@ -1,4 +1,4 @@
-class Pessoa {
+class iPessoa {
     private nome: string;
     public idade: number;
 
@@ -32,7 +32,7 @@ class Pessoa {
     }
 }
 
-const pessoa = new Pessoa("Ricardo", 21);
+const pessoa = new iPessoa("Ricardo", 21);
 
 console.log(pessoa.idade);
 console.log(pessoa.alterarNome("Luana"));
