@@ -10,9 +10,7 @@ addTutor("ruan", "2434324234", "23434324@hotmail.com", {
     numero:34,
     comp: "apt 102"
 });
-console.log(tutor);
+exibirTutor();
 
 deleteTutorByCpf("123.456.789.10");
-console.log(tutor);
-
 exibirTutor();
