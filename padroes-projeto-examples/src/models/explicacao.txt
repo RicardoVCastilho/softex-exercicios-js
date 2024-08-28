@@ -1,0 +1,4 @@
+appointmentModel.js   -> Modelo de dados para consultas
+patientModel.js       -> Modelo de dados para os pacientes
+vetModel.js           -> Modelo de dados para os veterinários
+userModel.js          -> Modelo de dados para os usuários do sistema

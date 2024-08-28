@@ -1,0 +1,4 @@
+middlewares/
+authMiddleware.js    ->   Middleware para verificação de autenticação
+errorHandler.js      ->   Middleware para tratamento de erros
+logMiddleware.js     ->   Middleware para logging das requisições

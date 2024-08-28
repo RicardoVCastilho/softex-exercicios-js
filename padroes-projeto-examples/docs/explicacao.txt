@@ -1,0 +1,2 @@
+API.md                          -> Documentação da API
+INSTALL.md                      -> Instruções de instalação e configuração

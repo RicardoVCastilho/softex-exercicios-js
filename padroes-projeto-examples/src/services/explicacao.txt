@@ -1,0 +1,4 @@
+services/
+appointmentService.js    ->  Lógica de negócios para consultas
+emailService.js          ->  Lógica para envio de emails (ex: lembretes de consultas)
+vetService.js            ->  Lógica de negócios para veterinários

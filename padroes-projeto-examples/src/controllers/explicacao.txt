@@ -1,0 +1,4 @@
+appointmentController.js   ->  Controla as marcações de consultas
+patientController.js       ->  Gerencia os dados dos pacientes (animais)
+vetController.js           ->  Gerencia os veterinários
+authController.js          ->  Gerencia autenticação e autorização 

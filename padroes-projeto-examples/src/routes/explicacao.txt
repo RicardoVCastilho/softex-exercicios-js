@@ -1,0 +1,4 @@
+routes/
+appointmentRoutes.js -> Rotas para manipulação de consultas
+patientRoutes.js   ->   Rotas para manipulação de pacientes
+vetRoutes.js     ->     Rotas para manipulação de veterinários 

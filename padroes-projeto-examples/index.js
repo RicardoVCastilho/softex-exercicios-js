@@ -1,0 +1,1 @@
+// index.js        ->       Ponto de entrada da aplicação

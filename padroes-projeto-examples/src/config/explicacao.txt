@@ -1,0 +1,3 @@
+config/
+dbConfig.js       ->  Configuração do banco de dados
+envConfig.js      ->  Configuração das variáveis de ambiente
