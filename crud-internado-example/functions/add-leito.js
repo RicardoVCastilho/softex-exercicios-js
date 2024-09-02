@@ -1,7 +1,8 @@
 const {leitos} = require("../src/database");
 
-function addLeitos(permanencia, medicamento, ministrado, dosagemMed, frequencia) {
+function addLeitos(numLeito, permanencia, medicamento, ministrado, dosagemMed, frequencia) {
     const newLeito = {
+        numLeito,
         permanencia,
         medicamento,
         ministrado,

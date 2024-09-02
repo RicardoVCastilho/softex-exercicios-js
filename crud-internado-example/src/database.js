@@ -10,10 +10,11 @@ const internado = [
             descDoc: 'Lorem' // Campo mais próximo ao histórico
         }
     },
-]
+];
 
 const leitos = [
     {
+        numLeito: 1, // FK, PK
         permanencia: 7, // quantidade de dias que o paciente passou no leito
         medicamento: 'Paracetamol',
         ministrado: false,
