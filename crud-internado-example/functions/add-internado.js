@@ -10,6 +10,6 @@ function addInternado(leitos, paciente, documentos) {
     internado.push(newInternado);
 }
 
-module.exposts = {
+module.exports = {
     addInternado
 }
