@@ -1,4 +1,14 @@
-const {leitos} = require("../src/database");
+const { internado, leitos } = require("../src/database");
+
+function addInternado(leitos, paciente, documentos) {
+    const newInternado = {
+        leitos,
+        paciente,
+        documentos
+    };
+
+    internado.push(newInternado);
+}
 
 function addLeitos(numLeito, permanencia, medicamento, ministrado, dosagemMed, frequencia) {
     const newLeito = {
@@ -14,5 +24,6 @@ function addLeitos(numLeito, permanencia, medicamento, ministrado, dosagemMed, f
 }
 
 module.exports = {
+    addInternado,
     addLeitos
 }

@@ -1,6 +1,5 @@
 const {internado, leitos} = require("./src/database");
-const {addInternado} = require("./functions/add-internado");
-const {addLeitos} = require("./functions/add-leito");
+const {addInternado, addLeitos} = require("./functions/add-internado-leito");
 const {exibirInternado, exibirLeitos} = require("./functions/read-internado-leito");
 const controllerUpdate = require("./functions/updates-function");
 const {deleteInternadoByPaciente, deleteLeitosByNumLeito} = require("./functions/delete-functions");
