@@ -6,7 +6,6 @@ const clients = [
         email: 'ricardo@hotmail.com',
         fone: '(81) 9.7896-5432'
     },
-
     {
         id: 2,
         name: 'Luana',

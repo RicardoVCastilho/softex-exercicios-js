@@ -4,7 +4,7 @@ const express = require('express');
 // para iniciar o express
 const app = express();
 
-const {clients} = require('./models/clients');
+const {clients} = require('./src/models/clients');
 
 // renderizando a lista de clientes na rota raiz utilizando o  método send e verbo HTTP GET
 app.get('/clients', (req, res) => {
@@ -49,6 +49,14 @@ app.put('/clients/:id', (req, res) => {
     client.email = email;
     client.fone = fone;
     res.send('Client updated');    
+});
+
+app.delete('/clients/:id', (req,res) => {
+    const { id } = req.params;
+    const index = clients.findIndex((value) => value.id === Number(id));
+    if(index === -1) return res.send('Client not found');
+    clients.splice(index, 1);
+    res.send('Client deleted')
 });
 
 // servidor rodando na porta 3000
