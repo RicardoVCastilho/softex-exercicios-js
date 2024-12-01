@@ -9,6 +9,8 @@ Uma formação acelarada em programação Web, onde pude desenvolver muitas habi
 - Node.js;
 - Padrões de desenvolvimento de softwares;
 - Banco de dados;
+- Consumo de APIs com Axios e Fetch;
+- Exemplos de APIs;
 - Express.js.
 
   ## O que é o repo
