@@ -9,8 +9,7 @@ Uma formação acelarada em programação Web, onde pude desenvolver muitas habi
 - Node.js;
 - Padrões de desenvolvimento de softwares;
 - Banco de dados;
-- Express.js;
-  Dentre muitos outros.
+- Express.js.
 
   ## O que é o repo
   Basicamente um registro de exercícios, que marcam minha evolução no aprendizado.
